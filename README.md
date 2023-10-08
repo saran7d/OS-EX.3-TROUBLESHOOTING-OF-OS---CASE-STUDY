@@ -1,103 +1,78 @@
 # OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY
 
 ## AIM:
-To Troubleshooting of Operating System
-
+To study the process of troubleshooting of Operating System.
 ## STEPS:
- 
-### 1. Identify the Problem: 
-Start by determining the specific issue or error you're encountering. Is it a system crash, slow performance, software not working, or something else?
+1.Identify the problem.
+2.Establish a theory of Probable Cause
+3.Test the theory to determine cause.
+4.Establish a plan of action to resolve the problem and implement the solution
+5.Verify full system functionality and if applicable implement preventive measures.
+6.Document Findings, action and outcomes
+## PROCEDURE:
+## Step 1: Identify the problem.
+OS problems can result from a combination of hardware, software, and network issues. Computer technicians must be able to analyze the problem and determine the cause of the error to repair the computer. This process is called troubleshooting. The first step in the troubleshooting process is to identify the problem.
 
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/60d04adf-9e8a-4bdd-9ca0-708938ec0c5d)
-
-
-### 2. Gather Information:
-Collect relevant information about the problem. Note error messages, system behavior, recent changes, or any patterns related to the issue.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/c10a7dee-4181-470d-aae1-cd3e1230b655)
-
-### 3. Check for Updates:
-Ensure your operating system, drivers, and software are up to date. Sometimes,updating can resolve compatibility or security issues updating can resolves.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/040b4e39-8daa-4cb3-9e5a-f7d9c824e475)
-
-### 4. Restart the System:
-A simple restart can often fix minor glitches and improve system performance.
-
- 
-### 5. Check Hardware:
-If it's a hardware-related issue, ensure that all hardware components are properly connected and functioning. Look for loose cables, overheating, or hardware failures.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/f057c238-bf84-456c-9a32-97adc1043eb3)
-
-### 6. Run Diagnostic Tools:
-Use built-in diagnostic tools provided by the operating system to identify hardware or software problems.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/73d096db-f230-4f2b-a457-3663d53ef89e)
-
-
-### 7. Review Event Logs:
-Check the system logs for error messages or warnings that might provide clues about the issue. In Windows, you can use the Event Viewer; in Linux, check syslog or journalctl.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/b4363162-3bed-4840-8a61-761c925fa623)
+Open-ended Questions
+```
+What problems are you having?
+What OS is installed on the computer?
+What updates have you performed lately?
+What programs have you installed recently?
+What were you doing when the problem was discovered?
+```
+Closed-ended Questions
+```
+Can you boot the operating system?
+Can you boot up in safe mood?
+Have you changed your password recently?
+Have you seen any error on the computer?
+Has any one used the computer recently?
+Has any hardware been added recently?
+```
+## Step 2: Establish a Theory of Probable Cause
+After you have talked to the customer, you can establish a theory of probable causes.
 
 
-### 8. Remove Recently Installed Software: 
-If the problem started after installing new software, consider uninstalling it to see if that resolves the issue.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/e0b21d18-0c3f-496f-84a7-9b9876f28bef)
+## Step 3: Test the Theory to Determine Cause
+After you have developed some theories about what is wrong, test your theories to determine the cause of the problem. The figure shows a list of quick procedures that can help determine the exact cause of the problem or even correct the problem. If a quick procedure does correct the problem, you can jump to verifying the full system functionality. If a quick procedure does not correct the problem, you need to research the problem further to establish the exact cause.
 
 
-### 9. Safe Mode:
-Boot the system into safe mode to check if the problem persists. Safe mode loads the OS with minimal drivers and can help identify if third-party software is causing the issue.
+## Step 4: Establish a plan of Action to Resolve the Problem and Implement the Solution
+After you have determined the exact cause of the problem, establish a plan of action to resolve the problem and implement the solution.
+```
+Helpdesk repair logs
+Other technicians
+Manufacturer FAQs
+Technical websites
+Newsgroups
+Computer manuals
+```
 
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/745c707b-9c7b-40ac-b389-fbf880f9fb9a)
-
-
-### 10. Virus and Malware Scan:
-Perform a full system scan for viruses and malware using reputable antivirus software.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/e9388375-515b-4459-ae3b-475c8a7016b2)
-
-
-### 11. Check Disk and File System:
-Use built-in utilities like chkdsk (Windows) or fsck (Linux) to scan and repair disk errors and file system issues.
-
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/c362f305-0bc4-442d-b4a3-1e7d256d5e6b)
-
-
-### 12. Update Drivers:  
-Ensure that your hardware drivers (graphics, sound, network) are up to date. Outdated drivers can cause various problems.
-
- ![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/fd3a2c1d-32f2-4e67-a410-338f70aef67d)
+## Step 5: Verify Full System Functionality and Implement Preventive Measures
+After you have corrected the problem, verify full system functionality and, if applicable, implement preventive measures.
+```
+Shutdown the computer and restart it
+Check event logs to make sure there are no new warnings or error.
+Check task manager to ensure that the status of all programs is running
+Re-run any third party diagnostic tools
+```
 
 
 
-### 13. System Restore: 
-If applicable, consider using system restore points to revert your system to a previous state when it was working correctly.
+## Step 6: Document Findings, Actions, and Outcomes
+In the final step of the troubleshooting process, you must document your findings, actions, and outcomes.
+```
+Discuss the solution implemented with the customer
+Have the customer verify that the problem has been solved
+Provide the customer will all paperwork
+Document any components used in the repair
+Document the time spent to resolve the problem
+```
+![step6](https://github.com/JAYAVARTHAN-P/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/121369281/35ea360f-f387-4f97-92c9-da4072d8aaa6)
 
-![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/6952be28-1c51-44f7-9495-e6fe2d77ebe9)
-
-
-### 14. Backup Data: 
-If all else fails and you suspect a major issue, back up your important data before attempting any major repairs or reinstallations.
-
- ![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/f00eed41-469b-4c17-bede-16f6b91712d5)
-
-
-
-### 15. Reinstall OS:
-As a last resort, you may need to reinstall the operating system. Make sure to back up your data first.
-
- ![image](https://github.com/Dhivya-bharathi88/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/128019999/0a543614-96d0-4755-bb7c-f18dd9b5cdaa)
-
- 
-
-### 16. Seek Help:
-If you can't resolve the issue on your own, consider seeking help from online forums, tech support, or a professional technician.  
-
-  
+![step62](https://github.com/JAYAVARTHAN-P/OS-EX.3-TROUBLESHOOTING-OF-OS---CASE-STUDY/assets/121369281/3fd481f0-c1e4-457c-b2d3-8b05416466a3)
 
 
-## RESULT: 
-The Troubleshooting for the Operating System has been successfully done.
+## RESULT:
+Thus the process of troubleshooting of OS is studied.
